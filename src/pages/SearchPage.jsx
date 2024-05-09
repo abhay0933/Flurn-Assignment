@@ -67,7 +67,6 @@ const SearchPage = () => {
         </Button> : <Button onClick={handleSearch} border="1px solid" width="100px" padding="20px" marginTop="5px">Search</Button>}
       </Box>
       <div className='pokemonContainer'>
-        <Text>Hey, Search me Over there ...</Text>
         <div className='imageContainer'>
           <Image src='https://near-ethernet-088.notion.site/image/https%3A%2F%2Fpngimg.com%2Fuploads%2Fpokemon%2Fpokemon_PNG33.png?table=block&id=86912e4f-764b-4463-ba27-5705f3851ebf&spaceId=159f4c28-9b94-4583-9b02-8afa7bede8e1&width=250&userId=&cache=v2' w="100%" height="400px"></Image>
         </div>
